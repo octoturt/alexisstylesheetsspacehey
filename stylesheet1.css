@@ -1,0 +1,123 @@
+<style>
+body{
+	background-image: url(https://cdn.osxdaily.com/wp-content/uploads/2020/10/macos-big-sur-wallpaper-1-scaled.jpg);
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	font-family: ".LucidaGrandeUI", "Lucida Grande", "Lucida sans unicode";
+}
+nav .top{
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0.0, #535353, color-stop(1.0, #414241)));
+	background: -webkit-linear-gradient(top, #535353, #414241);
+	background: -moz-linear-gradient(top, #535353, #414241);
+	background: -ms-linear-gradient(top, #535353, #414241);
+	background: -o-linear-gradient(top, #535353, #414241);
+	background: linear-gradient(top, #535353, #414241);
+	color: #c2c4c3;
+	font-size: 11pt;
+	line-height: 20px;
+	text-align: center;
+	border-top: 1px solid #888988;
+	border-bottom: 1px solid #000000;
+	border-top-left-radius: 6px;
+	border-top-right-radius: 6px;
+	user-select: none;
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	-o-user-select: none;
+	cursor: default;
+}
+nav .links{
+	background: #1e1e1e;
+}
+main {
+	border-radius: 0px 0px 15px 15px;
+}
+footer {
+background: rgba(30, 30, 30, 100) !important;
+	border-radius: 15px 15px 15px 15px;
+}
+img {
+	border-radius: 6px;
+}
+main {
+	background: #38383c;
+}
+p {
+	color: white;
+}
+a{
+	color: #BFDBFE;
+}
+h1 {
+	color: white;
+}
+h4 {
+	color: white;
+}
+.profile .blurbs .heading, .profile .friends .heading {
+	background-color: #1e1e1e;
+	border-radius: 8px;
+}
+.details-table td:first-child {
+	background: #2e2e2e;
+}
+.details-table td {
+	background: #292929;
+	vertical-align: top;
+}
+table.details-table {
+	border:0px solid transparent;
+}
+.profile .contact .heading, .profile .table-section .heading, .home-actions .heading {
+	background: #1e1e1e;
+	border-radius: 8px;
+}
+.profile .contact, .profile .url-info, .profile .table-section, .home-actions {
+	width: 100%;
+	border: 0px solid black;
+	margin: 10px 0;
+}
+.profile .friends .person p {
+	color: white;
+	font-weight: bold;
+	width: 100%;
+	word-break: break-word;
+	font-size: 100%;
+	text-align: center;
+}
+.friends th, tr, .friends td, th, .icon, #comments, main, .comments-table, .friends, .profile-info, .table, .table-section, .contact, .url-info, .mood, .blurbs, .blog-preview, .details, .profile-pic img {
+	border: 0px dotted gray !important;
+	outline: none !important;
+}
+.comments-table td:first-child, .music-table td:first-child {
+	background: #2e2e2e;
+}
+.comments-table td, .music-table td {
+	background: #292929;
+}
+.comment-replies {
+	border: 5px solid #1e1e1e; 
+	background: #1e1e1e;
+}
+.container {
+	width: 810px;
+	max-width: 100%;
+	margin: 10px auto 10px;
+}
+a:hover {
+	color: white;
+	text-decoration: underline;
+}
+a:active {
+	color: white;
+}
+input#q {
+	border-radius: 8px;
+}
+.inner {
+	border-radius: 8px;
+}
+</style>
