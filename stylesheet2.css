@@ -4,14 +4,10 @@
 /* If you do use it, and it turns out to be illegal, we should totally be prison buddies though */
 /* I'm just kidding, of course. Mostly. */
 
-/* Turns the SpaceHey Logo Black */
-.logo {
-filter: brightness(0%);
-}
 /* Sets the background image and scaling, as well as the font */
 /* Note: it's probably a bad idea long-term to pull this from osxdaily's CDN, but I'm too lazy to mirror it elsewhere. */
 body{
-	background-image: url(https://cdn.osxdaily.com/wp-content/uploads/2020/10/macos-big-sur-wallpaper-1.jpg);
+	background-image: url(https://cdn.osxdaily.com/wp-content/uploads/2020/10/macos-big-sur-wallpaper-2.jpg);
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	-o-background-size: cover;
@@ -19,20 +15,20 @@ body{
 	font-family: Lucida Grande,Lucida Sans Unicode,Lucida Sans,Geneva,Verdana,sans-serif; ;
 }
 /* Recolors the top bar to look like macOS */
-/* Credit where it's due: I stole this from https://codepen.io/JohJakob/pen/YPxgwo */
+/* Credit where it's due: I partially stole this from https://codepen.io/JohJakob/pen/YPxgwo */
 nav .top{
-	background: -webkit-gradient(linear, left top, left bottom, color-stop(0.0, #ebebeb, color-stop(1.0, #d5d5d5)));
-	background: -webkit-linear-gradient(top, #ebebeb, #d5d5d5);
-	background: -moz-linear-gradient(top, #ebebeb, #d5d5d5);
-	background: -ms-linear-gradient(top, #ebebeb, #d5d5d5);
-	background: -o-linear-gradient(top, #ebebeb, #d5d5d5);
-	background: linear-gradient(top, #ebebeb, #d5d5d5);
-	color: #4d494d;
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0.0, #535353, color-stop(1.0, #414241)));
+	background: -webkit-linear-gradient(top, #535353, #414241);
+	background: -moz-linear-gradient(top, #535353, #414241);
+	background: -ms-linear-gradient(top, #535353, #414241);
+	background: -o-linear-gradient(top, #535353, #414241);
+	background: linear-gradient(top, #535353, #414241);
+	color: #c2c4c3;
 	font-size: 11pt;
 	line-height: 20px;
 	text-align: center;
-	border-top: 1px solid #f3f1f3;
-	border-bottom: 1px solid #b1aeb1;
+	border-top: 1px solid #888988;
+	border-bottom: 1px solid #000000;
 	border-top-left-radius: 6px;
 	border-top-right-radius: 6px;
 	user-select: none;
@@ -48,17 +44,17 @@ input#q {
 }
 /* Recolors the navigation bar */
 nav .links{
-	background: #f2f2f2;
-	color: black !important;
+	background: #1e1e1e;
+	color: white !important;
 }
 /* Recolors the links in the navigation bar */
 nav .links a{
-				color: black !important;
+	color: white !important;
 }
 /* Changes the background color of the main window */
 main {
 	border-radius: 0px 0px 15px 15px;
-	background: white;
+	background: #38383c;
 }
 /* Gives the top of the window a bit of breathing space */
 .container {
@@ -68,7 +64,7 @@ main {
 /* No idea why, but it HAS to be in rgba format */
 /* Again, I'm not a CSS pro, don't ask */
 footer {
-	background: rgba(255, 255, 255, 100) !important;
+	background: rgba(30, 30, 30, 100) !important;
 	border-radius: 15px 15px 15px 15px;
 }
 /* Applies rounded corners to all images */
@@ -80,13 +76,13 @@ img {
 /* Makes sure all of our text is the correct color. */
 /* Best to just edit all of them. Trust me. */
 p {
-	color: black;
+	color: white;
 }
 h1 {
-	color: black;
+	color: white;
 }
 h4 {
-	color: black;
+	color: white;
 }
 
 /* Everything below this point is genuinely terrible */
@@ -94,15 +90,15 @@ h4 {
 
 /* Makes the headings gray */
 .profile .blurbs .heading, .profile .friends .heading, .profile .contact .heading, .profile .table-section .heading, .home-actions .heading {
-	background-color: #f2f2f2;
+	background-color: #1e1e1e;
 }
 /* Gives the left side of the details table a color */
 .details-table td:first-child {
-	background: #f6f6f6;
+	background: #2e2e2e;
 }
 /* Gives the right side of the details table a color */ 
 .details-table td {
-	background: #f2f2f2;
+	background: #292929;
 }
 /* Removes the borders from the Comments box */
 /* Note: There may be a better-looking approach, but I'm tired af */
@@ -112,24 +108,27 @@ h4 {
 }
 /* Makes the left column in the comments box gray */
 .comments-table td:first-child, .music-table td:first-child {
-	background: #f6f6f6;
+	background: #2e2e2e;
 }
-/* Makes the right column of the comments box white */
+/* Makes the right column of the comments box gray */
 .comments-table td, .music-table td {
-	background: white;
+	background: #292929;
 }
 /* Makes comment replies gray */
 .comment-replies {
-	border: 5px solid white; 
-	background: #f2f2f2;
+	border: 5px solid #1e1e1e; 
+	background: #1e1e1e;
+}
+/* Recolors URLs */
+a {
+	color: white;
 }
 /* Makes links look better when moused over */
 a:hover {
+	color: white;
 	text-decoration: underline;
-				color: #1E40AF;
 }
 /* Probably the same when clicking, I think */
 a:active {
-	text-decoration: none;
-	color: #1E40AF;
+	color: white;
 }
