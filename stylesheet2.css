@@ -123,6 +123,9 @@ h4 {
 a {
 	color: white;
 }
+/* Recolors Friend URLs */
+.profile .friends .person p {
+    color: white;
 /* Makes links look better when moused over */
 a:hover {
 	color: white;
